@@ -1,0 +1,44 @@
+body {
+    background-color:coral;
+    font-family: 'Roboto',sans-serif;
+}
+
+img{
+    width: 15%;
+    margin: auto;
+
+}
+
+h1{
+    color: aqua;
+}
+
+div h1,h2,h3 {
+    color:white;
+}
+
+h2,h3{
+    text-align: center;
+
+}
+
+h4{
+    color:darkslateblue;
+}
+
+/*----PSEUDO-CLASES-------- */
+.EstiloE:hover{
+    color: white;
+
+}
+
+.EstiloEs:hover{
+    color: red;
+
+}
+
+@media screen and (max-width: 480px){
+    div{
+        background-color: red;
+    }
+}

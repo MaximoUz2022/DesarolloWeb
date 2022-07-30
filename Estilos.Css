@@ -1,0 +1,78 @@
+body {
+    background-color:coral;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+
+div h1{
+      color:aqua;
+}
+
+
+h2{
+    color:white;
+}
+
+div h2{
+    color: aqua;
+}
+
+div h3{
+    color:blue;
+}
+
+div h4{
+    color: white;
+}
+
+
+img{
+    width: 15%;
+    margin: auto;
+
+}
+
+h2{
+    text-align: center;
+
+}
+
+h2{
+    font-size: 1em;
+    text-align: center;
+}
+ 
+h4{
+    color:darkslateblue;
+}
+/*----PSEUDO-CLASES-------- */
+.direccion:active{
+    background: red;
+
+}
+
+.direccion:link{
+    color: red;
+}
+
+.direccion:hover{
+    color:white;
+}
+.Titulo:hover{
+    color:white;
+}
+
+.Anex:hover{
+    color:white;
+}
+
+/*Medias Query*/
+
+@media screen and (max-width: 480px){
+    div{
+        background-color: red;
+    }
+}
+
+
